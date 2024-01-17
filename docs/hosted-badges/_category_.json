@@ -1,0 +1,8 @@
+{
+  "label": "Badges",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Overview of how AKA Profiles hosts Nostr badges."
+  }
+}
