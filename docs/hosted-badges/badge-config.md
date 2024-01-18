@@ -10,11 +10,11 @@ To enable the self-issuing of badges, AKA Profiles needs to know where to redire
 
 ## Badge Award Page
 
-Shown below is the page a user sees when applying for the `Not-a-bot` badge.
+Shown below is the page a user sees when applying for the `Not-a-Robot` badge.
 
 ![Screenshot display applyURL](/img/apply.png)
 
-The badge's `Badge Award Page`, is displayed in an iFrame.
+The badge's `Badge Award Page`, is displayed in an `<iframe>`.
 
 See the `notabot` folder in [badge award source code](https://github.com/neilck/aka-awardbadge/blob/main/src/app/notabot/award/page.tsx) to learn how to award a badge using AKA Profiles API.
 
