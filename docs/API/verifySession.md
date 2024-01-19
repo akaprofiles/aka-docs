@@ -4,6 +4,8 @@ sidebar_position: 5
 
 # verifySession
 
+`https://api.akaprofiles.com/verifySession`
+
 Call verifySession to verify session and awardtoken values are valid (issued by AKA Profiles).
 
 Used to prevent page from continuing to process if URL not set by AKA Profiles.

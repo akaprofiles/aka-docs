@@ -1,12 +1,11 @@
 ---
-sidebar_position: 7
+sidebar_position: 8
 ---
 
-# awardBadge
+# Award Badge Event
 
-`https://api.akaprofiles.com/awardBadge`
-
-awardBadge sets the badge as awarded in the session.
+After awardBadge endpoint is called, badge award is saved in session.
+IF user has not yet authenticated with a pubkey,
 
 The corresponding a badge award event will be published once the user has provided their pubkey.
 

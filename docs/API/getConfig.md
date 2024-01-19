@@ -4,6 +4,8 @@ sidebar_position: 6
 
 # getConfig
 
+`https://api.akaprofiles.com/getConfig`
+
 getConfig returns configuration parameters for the badge.
 
 [See Configuration Parameters](/docs/hosted-badges/badge-config#configuration-parameters) for more information.
