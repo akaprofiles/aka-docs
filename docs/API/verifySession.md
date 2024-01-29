@@ -1,10 +1,10 @@
 ---
-sidebar_position: 5
+sidebar_position: 4
 ---
 
 # verifySession
 
-`https://api.akaprofiles.com/verifySession`
+POST `https://api.akaprofiles.com/verifySession`
 
 Call verifySession to verify session and awardtoken values are valid (issued by AKA Profiles).
 
