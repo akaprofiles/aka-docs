@@ -18,6 +18,11 @@ The badge's `Badge Award Page`, is displayed in an `<iframe>`.
 
 See the `notabot` folder in [badge award source code](https://github.com/neilck/aka-awardbadge/blob/main/src/app/notabot/award/page.tsx) to learn how to award a badge using AKA Profiles API.
 
+## Badge Identifier
+
+`Badge Identifier` acts a unique identifier and should not be changed after the badge has been published.
+For more info search `d tag value`` in [NIP-01](https://github.com/nostr-protocol/nips/blob/master/01.md).
+
 ## Configuration Parameters
 
 Configuration parameters let you re-use the same `Badge Award Page` for different badges by specifying different parameters.

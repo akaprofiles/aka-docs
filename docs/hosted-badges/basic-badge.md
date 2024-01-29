@@ -18,9 +18,6 @@ Uploaded images are automatically resized to 1024x1024 for main image, and 128x1
 
 Square ratio, transparent-backgound .png image is recommended.
 
-`Badge Identifier` acts a unique identifier and should not be changed after the badge has been published.
-For more info search `d tag value`` in [NIP-01](https://github.com/nostr-protocol/nips/blob/master/01.md).
-
 ## Sharing the badge
 
 Once published, your badge can be viewed at:
