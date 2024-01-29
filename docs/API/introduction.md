@@ -14,8 +14,9 @@ See implementations of "Not-a-Robot" and "IP Locate" badges in [aka-awardbadge r
 
 1. Users can view your badge at `https://app.akaprofiles.com/njump/<badge naddr...>`
 2. When they click "Get Badge" your web app page (aka. `Badge Award Page`) is displayed in an `<iframe>`.
-3. AKA Profiles provides session information as parameters. `https://<your_domain>/<badge award page>?session={session}&awardtoken={awardtoken}`
-4. Your code calls `badgeAward` with session, awardtoken, and your API key to award the badge.
+3. AKA Profiles provides session information as parameters. `https://<your_domain>/<badge award page>?session={session}&identifier={identifier}&awardtoken={awardtoken}`
+4. Your code optionally calls `getConfig` with badge identifier (d tag) to get badge configuration parameters.
+   Your code calls `badgeAward` with session, awardtoken, and your API key to award the badge.
 5. AKA Profiles publishes the badge award event using your issuer keypair to your specified relays.
 
 **badge award page in iframe**
@@ -23,7 +24,7 @@ See implementations of "Not-a-Robot" and "IP Locate" badges in [aka-awardbadge r
 ```html
 <iframe
 id="contentFrame"
-src="<badge award page>?session=$<session id>&awardtoken=<award token>"
+src="<badge award page>?session=$<session id>&identifier=<identifier>&awardtoken=<award token>"
 title={title}
 style={{
     height: "100%",
