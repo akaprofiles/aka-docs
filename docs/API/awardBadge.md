@@ -44,13 +44,11 @@ See function `awardBadge` in [reference implementation](https://github.com/neilc
 
 # award badge event
 
-Award data is added to award badge event as one or more `data tag`s.
+Award data is added to award badge event as one or more `data tags`.
 There is a delay between calling awardData endpoint and award badge event publishing:
 
 - user is prompted for their pubkey
 - after review, user can choose to prevent the badge award
-
-Only key names matching the badge's data field names will be added to the badge award, and each value must be a string.
 
 Added to badge award event's tags as
 
