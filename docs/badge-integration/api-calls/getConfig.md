@@ -10,7 +10,7 @@ getConfig returns configuration parameters for the badge.
 
 Required parameter `identifier` is the unique badge identifer (`d tag` in badge definition).
 
-[See Configuration Parameters](/docs/hosted-badges/badge-config#configuration-parameters) for more information.
+[See Configuration Parameters](/docs/help-pages/badge-config#configuration-parameters) for more information.
 
 **Response Body**
 

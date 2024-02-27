@@ -18,7 +18,7 @@ awardBadge approves the badge award.
 };
 ```
 
-`awarddata` is optional. Data can be returned along with badge award. See [Badge Data Fields](/docs/hosted-badges/badge-data) for more information.
+`awarddata` is optional. Data can be returned along with badge award. See [Badge Data Fields](/docs/help-pages/badge-data) for more information.
 
 **Example awarddata JSON**
 
