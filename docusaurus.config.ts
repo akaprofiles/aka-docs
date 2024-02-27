@@ -4,7 +4,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "AKA Profiles",
-  tagline: "Web3 Access without Identity",
+  tagline: "Access without Identity",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -66,7 +66,7 @@ const config: Config = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/neilck/aka-docs",
+          href: "https://github.com/akaprofiles/nostr-badges",
           label: "GitHub",
           position: "right",
         },

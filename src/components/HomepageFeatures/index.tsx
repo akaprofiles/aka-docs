@@ -10,22 +10,22 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: "Protect your Identity",
+    title: "Award Group Badges",
     Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
-        Bring your digital reputation with you across apps, without revealing
-        your real-world identity.
+        Control access to exclusive content and features by awarding group
+        badges.
       </>
     ),
   },
   {
-    title: "Integration without Lock-In",
+    title: "Specific Eligibility Requirements",
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        Leverage our user reputation services in your app, all without vendor
-        lock-in.
+        Specify group eligiblity by requiring badges from the badge library, or
+        integrate your own code.
       </>
     ),
   },
