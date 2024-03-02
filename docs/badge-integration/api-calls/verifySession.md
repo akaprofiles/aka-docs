@@ -6,9 +6,9 @@ sidebar_position: 4
 
 POST `https://api.akaprofiles.com/verifySession`
 
-Call verifySession to verify session and awardtoken values are valid (issued by AKA Profiles).
+Call verifySession to verify the session and awardtoken values are valid (issued by AKA Profiles).
 
-Used to prevent page from continuing to process if URL not set by AKA Profiles.
+Used to prevent the page from continuing to process if URL not set by AKA Profiles.
 
 **Request Body**
 
@@ -21,7 +21,7 @@ Used to prevent page from continuing to process if URL not set by AKA Profiles.
 
 **Response Body**
 
-If call is successful and session is valid, endpoint returns status 200 and json
+If the call is successful and the session is valid, the endpoint returns status 200 and json
 
 ```json
 {
@@ -32,4 +32,4 @@ If call is successful and session is valid, endpoint returns status 200 and json
 
 If success is not true, or any other status code is returned, either the `Badge Award Page` was not set by AKA Profiles, or the session has expired.
 
-See function `verifySession` in [reference implementation](https://github.com/neilck/aka-awardbadge/blob/main/src/app/actions/akaActions.ts).
+See function `verifySession` in the [reference implementation](https://github.com/neilck/aka-awardbadge/blob/main/src/app/actions/akaActions.ts).

@@ -14,9 +14,9 @@ Every badge has
 - a description
 - an image
 
-Uploaded images are automatically resized to 1024x1024 for main image, and 128x128 for thumbnail image.
+Uploaded images are automatically resized to 1024x1024 for the main image, and 128x128 for the thumbnail image.
 
-Square ratio, transparent-backgound .png image is recommended.
+A square ratio, transparent-backgound .png image is recommended.
 
 ## Sharing the badge
 

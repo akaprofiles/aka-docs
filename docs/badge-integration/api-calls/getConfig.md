@@ -8,13 +8,13 @@ GET `https://api.akaprofiles.com/getConfig?identifier={identifier}`
 
 getConfig returns configuration parameters for the badge.
 
-Required parameter `identifier` is the unique badge identifer (`d tag` in badge definition).
+The required parameter `identifier` is the unique badge identifier (`d tag` in badge definition).
 
 [See Configuration Parameters](/docs/help-pages/badge-config#configuration-parameters) for more information.
 
 **Response Body**
 
-If call is successful returns status 200 and json
+If the call is successful returns status 200 and json:
 
 ```json
 [
@@ -24,4 +24,4 @@ If call is successful returns status 200 and json
 ]
 ```
 
-See function `getConfig`` in [reference implementation](https://github.com/neilck/aka-awardbadge/blob/main/src/app/actions/akaActions.ts).
+See function `getConfig`` in the [reference implementation](https://github.com/neilck/aka-awardbadge/blob/main/src/app/actions/akaActions.ts).

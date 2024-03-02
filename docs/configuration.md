@@ -11,18 +11,18 @@ Before creating badges, you should configure your AKA Profiles account under [No
 **It is highly recommended to change the issuer private key before creating badges**
 
 - The issuer private key is used to publish Badge Definition events and Badge Award events.
-- It is independent / unrelated to the Nostr Extension key used to sign in.
+- It is independent/unrelated to the Nostr Extension key used to sign in.
 - only one issuer key per account is currently supported.
-- Private key is not viewable once saved
+- The private key is not viewable once saved
 
 Use your favorite Nostr client to generate a new key, update the profile, and then save the private key into AKA Profiles.
 
 ### Relays
 
-- add the relays where you app will look for badges and badge awards
+- add the relays where your app will look for badges and badge awards
 - relay authentication is currently not supported
 
 ### API Key
 
 - required if you are adding a new hosted badge with custom logic
-- old key is immmediately invalidated if you generate a new key
+- old key is immediately invalidated if you generate a new key

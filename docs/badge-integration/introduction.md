@@ -4,18 +4,18 @@ sidebar_position: 1
 
 # Introduction
 
-Badge integration with AKA Profiles allows users to apply for you badge using your Badge Award page. Integrated badges are added to the shared badge library, allowing them to be re-used as required badges when awarding group badges.
+Badge integration with AKA Profiles allows users to apply for your badge using your Badge Award page. Integrated badges are added to the shared badge library, allowing them to be re-used as required badges when awarding group badges.
 
 Suggested reading before continuing
 
-- [Configureation](/docs/configuration)
+- [Configuration](/docs/configuration)
 - [Workflow](/docs/workflow)
 
-Source code for integrated badges "Not-a-Robot" and "IP Locate" is available at [aka-awardbadge](https://github.com/neilck/aka-awardbadge).
+The source code for integrated badges "Not-a-Robot" and "IP Locate" is available at [aka-awardbadge](https://github.com/neilck/aka-awardbadge).
 
 ## Quick Overview
 
-When a user is applying for you badge, your Badge Award page is displayed embedded in a dialog.
+When a user is applying for your badge, your Badge Award page is displayed embedded in a dialog.
 
 ```html
 <iframe
