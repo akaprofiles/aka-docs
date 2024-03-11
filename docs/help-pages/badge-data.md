@@ -12,4 +12,4 @@ This data is public, and becomes part of the user's profile, so personally ident
 
 The Label and Description fields are shown to users when viewing the awarded badge.
 
-See the `iplocate` folder in the [award badge source code](https://github.com/neilck/aka-awardbadge/blob/main/src/app/iplocate/award/page.tsx) for an example of how to return data.
+See the `iplocate` folder in the [award badge source code](https://github.com/neilck/aka-awardbadge/blob/main/src/app/iplocate/page.tsx) for an example of how to return data.

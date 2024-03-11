@@ -20,12 +20,15 @@ When a user is applying for your badge, your Badge Award page is displayed embed
 ```html
 <iframe
   id="contentFrame"
-  src="<badge award page>?session=$<session id>&identifier=<identifier>&awardtoken=<award token>"
+  src="<badge award page>?code=<code>"
   title="{title}"
 ></iframe>
 ```
 
-Your page makes API calls to AKA Profiles to get additional information, and to award the badge if the user is eligible.
+- Your page calls `GET https:/api.akaprofiles.com/token` (with AKA_API_KEY as Bearer value) to exchange the `code` for a JSON web token (JWT).
+- Your page decodes the JWT using AKA Profiles' public key, which verifies the `code` was created by AKA Profiles.
+- The JWT contains any custom configuration parameters you have set for the badge.
+- Your page calls `POST https://api.akaprofiles.com/awardBadge` (with token as Bearer value) to award the badge.
 
 Try it out by [applying for "Not-a-Robot" badge](http://app.akaprofiles.com/njump/naddr1qqrkumm5v93x7aqzyrkm4aaey4raej2rn90ufkevka7d0g3vxj25z7dfnnqvp59vhnrq2qcyqqq82wgmuay94).
 

@@ -16,7 +16,7 @@ Shown below is the page a user sees when applying for the `Not-a-Robot` badge.
 
 The badge's `Badge Award Page`, is displayed in an `<iframe>`.
 
-See the `notabot` folder in the [badge award source code](https://github.com/neilck/aka-awardbadge/blob/main/src/app/notabot/award/page.tsx) to learn how to award a badge using AKA Profiles API.
+See the `notabot` folder in the [badge award source code](https://github.com/neilck/aka-awardbadge/blob/main/src/app/notabot/page.tsx) to learn how to award a badge using AKA Profiles API.
 
 ## Badge Identifier
 
@@ -29,4 +29,4 @@ Configuration parameters let you re-use the same `Badge Award Page` for differen
 
 Because these parameters may contain sensitive information, they are kept secret and only made available to Badge Award Page through an authenticated API call.
 
-See the `iplocate` folder in the [award badge source code](https://github.com/neilck/aka-awardbadge/blob/main/src/app/iplocate/award/page.tsx) for an example of how to use configuration parameters.
+See the `iplocate` folder in the [award badge source code](https://github.com/neilck/aka-awardbadge/blob/main/src/app/iplocate/page.tsx) for an example of how to use configuration parameters.
