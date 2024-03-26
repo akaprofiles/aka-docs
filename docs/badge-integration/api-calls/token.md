@@ -31,7 +31,7 @@ const response = await fetch(endpoint, {
 
 **Response**
 
-If the call is successful returns a JSON Web Token (JWT) string.
+If the call is successful returns a JSON Web Token (JWT) string. Token will expire in 1 hour.
 
 ```typescript
 
