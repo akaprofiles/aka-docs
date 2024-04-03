@@ -64,6 +64,12 @@ const config: Config = {
           position: "left",
           label: "Documentation",
         },
+        { to: "https://app.akaprofiles.com", label: "App", position: "left" },
+        {
+          to: "https://coracle.social/groups/naddr1qvzqqqyx7cpzp8ypk43npavn7z853ufmp8lhzclnyhg3aez0sw99jh9saf736g3kqqgrwvpexgmrwvf5xqmrydfnxyurgq7yjfj/notes",
+          label: "Support",
+          position: "left",
+        },
         { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/akaprofiles/nostr-badges",
