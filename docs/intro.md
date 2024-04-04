@@ -4,16 +4,28 @@ sidebar_position: 1
 
 # Introduction
 
-AKA Profiles is a microservice/app for Nostr badges.
+AKA Profiles is a microservice/app for Nostr badges that can be integrated into any Nostr client.
 
-Badges are associated with Badge Award web pages, enabling qualified users to obtain the badge themselves.
+Your client can provide exclusive access to content or features based on a user's Nostr badges, redirecting users to AKA Profiles to obtain the necessary badges if not yet awarded.
 
-As an example, it is common that apps require users to pass a Captcha to prevent bot signups/spam. With AKA Profiles, a user only has to pass a Captcha once, and the result is stored as a badge awarded to their account.
+![User Workflow Diagram](/img/workflow-simple.svg "Integration Diagram")
 
-The user workflow is similar to OAuth.
+After redirection, AKA Profiles:
 
-1. Each app defines its group badge, specifying one or more badges from the badge library as eligibility requirements.
-2. Users without required badges are directed from the app to AKA Profiles, where they can self-award badges based on respective badge award web pages.
-3. Once all badges are awarded, the app's group badge is awarded, and the user is redirected back to the app.
+1. displays the list of required badges
+2. directs the user to the associated badge award web pages
+3. records a badge award approvals from each apply web page
+4. redirects the user back to the client once all the badges are awarded
 
-To promote the re-use of badges, badges integrated with AKA Profiles can be re-used by multiple apps.
+_The user flow is similar to OAuth, where the user is directed between different pages via redirects or dialogs._
+
+### Badge Library
+
+The badge library is at the heart of AKA Profiles, enabling badges to be reused as eligibility criteria by multiple clients.
+
+- Select your required badges from the existing badges in the library
+- Add your badge to the library for use by your client and other clients
+
+For example, your client could require that a user has the "Not a Robot" badge from the library before they are allowed to post. This badge's `apply web page` requires a user to patch a Captcha.
+
+If none of the library badges meet your needs, you can add your own badge into the library and share it with other clients.
