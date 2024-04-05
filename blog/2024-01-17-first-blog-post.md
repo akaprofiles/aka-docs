@@ -1,5 +1,4 @@
 ---
-slug: aka-docs
 title: Documenting AKA Profiles
 authors: [neilck]
 tags: [nostr, badges, akaprofiles, documentation, docusaurus]
