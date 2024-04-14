@@ -14,7 +14,9 @@ Sample code
 
 ### Session Header
 
-Display the badge/group/offer being applied for:
+Display the badge/group/offer being applied for.
+
+![AKA Header](/img/header.png)
 
 1. add a div to the top of the page `<div id="akaprofiles-header"></div>`
 2. include .js `https://badges.akaprofiles.com/embed/akaprofiles-header.js`
