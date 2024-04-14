@@ -1,8 +1,8 @@
 ---
-sidebar_position: 5
+sidebar_position: 2
 ---
 
-# token
+# Exchange Code for Token
 
 GET `https://api.akaprofiles.com/token?code=<code>`
 

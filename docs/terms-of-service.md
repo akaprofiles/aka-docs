@@ -1,5 +1,5 @@
 ---
-sidebar_position: 101
+sidebar_position: 1001
 ---
 
 # Terms of Service

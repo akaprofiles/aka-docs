@@ -1,8 +1,8 @@
 {
-  "label": "Badge Integration",
-  "position": 13,
-  "link": {
-    "type": "generated-index",
-    "description": "How to Integrate a Badge"
+    "label": "Badge Integration",
+    "position": 4,
+    "link": {
+      "type": "generated-index",
+      "description": "This section describes how to integrate a badge."
+    }
   }
-}

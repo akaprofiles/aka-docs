@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # Nostr Events
 
+Badge definitions and awards are based on Nostr events.
+
 ### Badge Definition event
 
 AKA Profiles extends the Badge Definition Event (see [NIP-58](https://github.com/nostr-protocol/nips/blob/master/58.md)) with additional `type`, `field` and `a` tags.

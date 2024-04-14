@@ -4,28 +4,16 @@ sidebar_position: 1
 
 # Introduction
 
-AKA Profiles is a microservice/app for Nostr badges that can be integrated into any Nostr client.
+AKA Profiles awards user badges that any app can use to determine who can access special features and exclusive content.
 
-Your client can provide exclusive access to content or features based on a user's Nostr badges, redirecting users to AKA Profiles to obtain the necessary badges if not yet awarded.
+Apps redirect users to AKA Profiles to obtain the necessary badges.
 
 ![User Workflow Diagram](/img/workflow-simple.svg "Integration Diagram")
 
-After redirection, AKA Profiles:
+AKA Profiles:
 
-1. displays the list of required badges
-2. directs the user to the associated badge award web pages
-3. records a badge award approvals from each apply web page
-4. redirects the user back to the client once all the badges are awarded
+1. shows the list of badges required for access.
+2. sends the user to the webpages where each badge can be earned.
+3. returns the user to the app after all badges are earned.
 
-_The user flow is similar to OAuth, where the user is directed between different pages via redirects or dialogs._
-
-### Badge Library
-
-The badge library is at the heart of AKA Profiles, enabling badges to be reused as eligibility criteria by multiple clients.
-
-- Select your required badges from the existing badges in the library
-- Add your badge to the library for use by your client and other clients
-
-For example, your client could require that a user has the "Not a Robot" badge from the library before they are allowed to post. This badge's `apply web page` requires a user to patch a Captcha.
-
-If none of the library badges meet your needs, you can add your own badge into the library and share it with other clients.
+Apps can choose to select from the existing badges, or integrate new badges.
