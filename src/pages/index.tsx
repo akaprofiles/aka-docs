@@ -17,12 +17,21 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro"
-          >
-            Developer Documentation
-          </Link>
+          <div style={{ width: "300px" }}>
+            <Link
+              className="button button--secondary button--lg button--block"
+              to="/docs/intro"
+            >
+              Platform Documentation
+            </Link>
+            <br />
+            <Link
+              className="button button--secondary button--lg button--block"
+              to="/docs/reference/extension"
+            >
+              Chrome Extension
+            </Link>
+          </div>
         </div>
       </div>
     </header>
