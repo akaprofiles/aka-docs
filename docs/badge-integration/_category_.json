@@ -1,8 +1,8 @@
 {
-    "label": "Badge Integration",
+    "label": "Auto Badge Integration",
     "position": 4,
     "link": {
       "type": "generated-index",
-      "description": "This section describes how to integrate a badge."
+      "description": "This section describes how to integrate an auto badge."
     }
   }

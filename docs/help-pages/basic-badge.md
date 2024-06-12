@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Basic Badge Fields
 
-This page explains the options of the `Hosted Badge > Badge` page in AKA Profiles.
+This page explains the options of the `Auto Badges > Badge` page in AKA Profiles.
 
 Badges in AKA Profiles are based on Nostr [NIP-58](https://github.com/nostr-protocol/nips/blob/master/58.md).
 
@@ -24,7 +24,7 @@ Once published, your badge can be viewed at:
 
 `http://akaprofiles.com/njump/naddr...`
 
-(Get your badge's `Apply for Badge link` on page `Hosted Badges > Publish`)
+(Get your badge's `Apply for Badge link` on page `Auto Badges > Publish`)
 
 ![Screenshot displaying badge](/img/viewbadge.png)
 

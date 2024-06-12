@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Badge Data Fields
 
-This page explains the options of the `Hosted Badge > Data` page in AKA Profiles.
+This page explains the options of the `Auto Badges > Data` page in AKA Profiles.
 
 If you have enabled the self-issuing of badges (see previous section), and want to return data when awarding your badge, you must specify the data fields here.
 

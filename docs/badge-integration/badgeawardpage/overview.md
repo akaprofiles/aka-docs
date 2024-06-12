@@ -4,12 +4,12 @@ sidebar_position: 1
 
 # Overview
 
-Users are redirected to a badge award page when applying for a badge.
+Users are redirected to a badge award page when applying for an auto badge.
 See previous article for setting this URL for a badge.
 
 Sample code
 
-- [Sample Badge Award Page](https://github.com/neilck/aka-badge-sample)
+- [Sample Badge Award Page](https://github.com/neilck/aka-autobadge)
 - [AKA Profiles Badges](https://github.com/neilck/aka-awardbadge)
 
 ### Session Header

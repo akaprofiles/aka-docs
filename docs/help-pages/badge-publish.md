@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Badge Publish
 
-This page explains the options of the `Hosted Badge > Publish` page in AKA Profiles.
+This page explains the options of the `Auto Badges > Publish` page in AKA Profiles.
 
 Publish your badge to your preferred relay, set on `Nostr Settings > Relays`.
 All events are published with Issuer Key, set on `Nostr Settings > Keypair`.

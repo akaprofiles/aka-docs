@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Badge Configuration
 
-This page explains the options of the `Hosted Badge > Config` page in AKA Profiles.
+This page explains the options of the `Auto Badges > Config` page in AKA Profiles.
 
 To enable the self-issuing of badges, AKA Profiles needs to know where to redirect users applying for your badge.
 

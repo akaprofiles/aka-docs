@@ -1,10 +1,10 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
-# Create Badge
+# Auto Badges
 
-Create a new badge in [Badges](https://app.akaprofiles.com/creator/badges).
+Create a new auto badge in [Auto Badges](https://app.akaprofiles.com/creator/badges).
 
 ## CONFIG Section
 
