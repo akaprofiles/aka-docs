@@ -1,0 +1,8 @@
+{
+  "label": "API Calls",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Badge award pages interact with AKA Profiles through API calls."
+  }
+}

@@ -7,7 +7,6 @@ sidebar_position: 5
 This page explains the options of the `Auto Badges > Publish` page in AKA Profiles.
 
 Publish your badge to your preferred relay, set on `Nostr Settings > Relays`.
-All events are published with Issuer Key, set on `Nostr Settings > Keypair`.
 
 The current badge status check happens on page load, and returns per relay
 
@@ -21,6 +20,3 @@ The current badge status check happens on page load, and returns per relay
 Test Links let you test or view your badge before publishing.
 
 - `View raw event` shows the raw Nostr event that will be published
-- `Apply for Badge link` shows how your badge looks to users
-
-Note that AKA Profiles also stores badges internally, so `Apply for Badge` still works even when the badge is not yet published to relays.

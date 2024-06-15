@@ -6,27 +6,23 @@ sidebar_position: 3
 
 This page explains the options of the `Auto Badges > Config` page in AKA Profiles.
 
-To enable the self-issuing of badges, AKA Profiles needs to know where to redirect users applying for your badge.
-
-## Badge Award Page
-
-Shown below is the page a user sees when applying for the `Not-a-Robot` badge.
-
-![Screenshot display applyURL](/img/apply.png)
-
-The badge's `Badge Award Page`, is displayed in an `<iframe>`.
-
-See the `notabot` folder in the [badge award source code](https://github.com/neilck/aka-awardbadge/blob/main/src/app/notabot/page.tsx) to learn how to award a badge using AKA Profiles API.
-
-## Badge Identifier
+### Badge Identifier
 
 `Badge Identifier` acts an unique identifier and should not be changed after the badge has been published.
 For more info search `d tag value` in [NIP-01](https://github.com/nostr-protocol/nips/blob/master/01.md).
 
-## Configuration Parameters
+### Badge Award Page / Get Badge Link
 
-Configuration parameters let you re-use the same `Badge Award Page` for different badges by specifying different parameters.
+Links related to the workflow when a user is applying for a badge.
 
-Because these parameters may contain sensitive information, they are kept secret and only made available to Badge Award Page through an authenticated API call.
+See [Auto Badge Integration - Workflow Links](/docs/auto-badge-integration/workflow_links) for more information.
 
-See the `iplocate` folder in the [award badge source code](https://github.com/neilck/aka-awardbadge/blob/main/src/app/iplocate/page.tsx) for an example of how to use configuration parameters.
+### Configuration Parameters
+
+Configuration parameters are optional and enable one or more auto badges to share the same Badge Award Page, with different configured behaviour.
+
+See [Auto Badge Integration - Configuration Parameters](/docs/auto-badge-integration/config_parameters) for more information.
+
+### Share in Badge Library
+
+When shared, the badge is added to the public library. Library badges can be used as eligibilty criteria for group membership approval.
