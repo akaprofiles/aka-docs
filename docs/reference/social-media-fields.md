@@ -20,6 +20,7 @@ The following field values are recognized by AKA Profiles and may be used when d
 | followers   | number of followers / subscribers         |
 | following   | number of accounts user follows           |
 | items       | number of content items posted            |
+| views       | number of views                           |
 | listed      | number of lists this account is member of |
 
 where standard platform names are
