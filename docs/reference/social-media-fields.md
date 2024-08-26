@@ -17,6 +17,7 @@ The following field values are recognized by AKA Profiles and may be used when d
 | title       | title of account                          |
 | description | general description of account            |
 | url         | url to profile page of account            |
+| avatar      | url to avatar image                       |
 | followers   | number of followers / subscribers         |
 | following   | number of accounts user follows           |
 | items       | number of content items posted            |
