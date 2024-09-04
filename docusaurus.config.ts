@@ -50,7 +50,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "img/akaprofiles-social-card.jpg",
+    image: "img/akaprofiles-social-card.png",
     navbar: {
       title: "AKA Profiles",
       logo: {
